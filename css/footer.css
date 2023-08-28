@@ -1,0 +1,109 @@
+.footer {
+  padding: 22px 0;
+  background-color: var(--accent-color);
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__logo {
+  margin-bottom: 33px;
+}
+.footer__phone {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  color: var(--dark-color);
+  transition: color 0.3s ease-in-out;
+}
+.footer__phone:hover {
+  color: var(--green-color);
+}
+.footer__phone-text {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: var(--grey-color);
+  transition: color 0.3s ease-in-out;
+}
+.footer__phone-text:hover {
+  color: var(--green-color);
+}
+.footer__left {
+  margin-right: 115px;
+}
+.footer__right {
+  display: flex;
+  flex-grow: 1;
+}
+.footer__list {
+  display: flex;
+  margin-right: auto;
+}
+.footer__item {
+  margin-right: 63px;
+}
+.footer__title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: var(--dark-color);
+}
+.footer__copy {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 120%;
+  color: var(--grey-color);
+}
+
+.list-footer__item:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.list-footer__link {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--grey-color);
+  transition: color 0.3s ease-in-out;
+}
+.list-footer__link:hover {
+  color: var(--green-color);
+}
+
+.social {
+  max-width: 135px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.social__item:not(:last-child) {
+  margin-right: 30px;
+}
+.social__link--fb {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/facebook.svg.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.social__link--inst {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/instagram.svg.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.social__link--yt {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/icons/yt.svg.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
